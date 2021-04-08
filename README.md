@@ -163,7 +163,7 @@ complie to dynamic lib
 
 to compile the lib we need add `-L` `-I` flags to tell the compiler where the lua header and liblua are.
 
- the directory must be **definitely directory** not the **relative directory**!!!
+ the directory must be **absolute directory** not the **relative directory**!!!
 
 write go code to use the dynamic library
 
